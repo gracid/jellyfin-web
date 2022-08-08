@@ -48,7 +48,7 @@ jobs:
     - name: Checkout modified web interface
       uses: actions/checkout@v3
       with:
-        ref: origin/10_8_3_subtitles
+        ref: 10_8_3_subtitles
         path: web
 
     - name: Store commit of web interface
